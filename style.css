@@ -60,7 +60,7 @@ nav a:hover{
     background-repeat: no-repeat;
 }
 
-h1{
+.hero-section h1{
     position: relative;
     top: 11%;
     left: 10%;
@@ -108,4 +108,14 @@ h1{
 
 #btn-2:active{
     opacity: 0.6;
+}
+
+.feature-heading{
+    font-size:45px;
+    text-align: center;
+}
+
+.feature-para{
+    font-size: 25px;
+    text-align: center;
 }
