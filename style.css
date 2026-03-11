@@ -72,14 +72,12 @@ nav a:hover{
     position: absolute;
     top: 20%;
     left: 15%;
-    width: 35%;
 }
 
 .hero-section p{
     position: absolute;
     top: 30%;
     left: 15%;
-    width: 33%;
     font-size: 1.3rem;
 }
 
@@ -178,4 +176,27 @@ nav a:hover{
     nav button{
         font-size: 1rem;
     }
+    .hero-section{
+        aspect-ratio: unset;
+        min-height: 60vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 2rem 1rem;
+    }
+    .hero-section h1,
+    .hero-section p,
+    .hero-section #btn-1,
+    .hero-section #btn-2{
+        position: static;
+        top: unset;
+        left: unset;
+    }
+
 }
+.hero-buttons{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1 rem;
+     margin: 1 rem;
+}   
