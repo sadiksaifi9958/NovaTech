@@ -8,13 +8,13 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
 .logo{
-    height: 10vh;
-    width: auto;
+    width: 15rem;
+    height: auto;
 }
 header{
     display: flex;
@@ -29,20 +29,20 @@ header{
 }
 nav{
     display: flex;
-    gap: 7vh;
+    gap: 3rem;
     display: flex;
     align-items: center;
-    font-size: 3vh;
+    font-size: 1.4rem;
 }
 nav button {
-    margin-right: 2vh; 
-    padding: 9px 12px;
+    margin-right: 0.5rem; 
+    padding: 0.5rem 1rem;
     background-color: blue;
     color: white;
     border-radius: 12px;
-    border: none;
+    border: 2px solid blue;
     outline: none;
-    font-size: 20px;
+    font-size: 1.4rem;
 }
 
 nav button:active{
@@ -58,94 +58,92 @@ nav a:hover{
 }
 
 .hero-section{
-    margin: 0px;
-    padding: 0px;
-    width: 100%;
-    height: 900px;
-    background-image: url('/Assets/hero.png');
+    background-image: url('./Assets/hero.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-}
+    aspect-ratio: 3/2;
+    width: 100%;
+    position: relative;
+} 
 
 .hero-section h1{
-    position: relative;
-    top: 11%;
-    left: 10%;
-    width: 40%;
-    font-size: 45px;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    width: 35%;
 }
 
 .hero-section p{
-    position: relative;
-    top: 12%;
-    left: 10%;
-    font-size: 25px;
-    width: 38%;
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    width: 33%;
+    font-size: 1.3rem;
 }
 
-#btn-1{
+.hero-section #btn-1{
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    font-size: 1.4rem;
+    padding: 0.5rem 1rem;
+
     background-color: blue;
+    border: 2px solid blue;
     color: white;
     border-radius: 12px;
     border: none;
     outline: none;
-    padding: 9px 12px;
-    font-size: 20px;
-    position: relative;
-    top: 13%;
-    left: 10%;
 }
 
-#btn-2{
+.hero-section #btn-2{
+    position: absolute;
+    top: 40%;
+    left: 28%;
+    font-size: 1.3rem;
+    padding: 0.5rem 1rem;
+
     background-color: white;
     color: black;
     border-radius: 12px;
     border: 2px solid black;
     outline: none;
-    padding: 9px 12px;
-    font-size: 20px;
-    position: relative;
-    top: 13%;
-    left: 11%;
 }
 
-#btn-1:active{
+.hero-section #btn-1:active{
     opacity: 0.7;
 }
 
-#btn-2:active{
+.hero-section #btn-2:active{
     opacity: 0.6;
 }
 
 .feature-heading{
-    font-size:45px;
     text-align: center;
-    margin-bottom: 20px;
+    font-size: 1.5rem;
 }
 
 .feature-para{
-    font-size: 25px;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 1rem;
+    font-size: 1rem;
 }
 .card img{
-    height: 100px;
-    width: 150px;
+    width:25vh;
+    height: auto;
 }
 
 .feature-cards{
     display: flex;
-    width: 100%;
-    height: 1000px;
     justify-content: space-around;
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
 }
 
 .card{
-    height: 300px;
-    width: 300px;
+    height: 21rem;
+    width: 21rem;
     border-radius: 12px;
     border: 2px solid #E5E4E2;
     text-align: center;
@@ -157,7 +155,7 @@ nav a:hover{
 }
 
 .card p{
-    width: 250px;
+    width: 18rem;
     margin-top: 10px;
 }
 .card:hover{
