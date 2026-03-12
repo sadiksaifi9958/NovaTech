@@ -204,4 +204,35 @@ nav a:hover{
     .card p{
         width: 100%;
     }
+    .burger{
+        display: block;
+        background: none;
+        border:none;
+        font-size: 1.8rem;
+        color:#1a1a2e;
+        cursor:pointer;
+        opacity: 0.7;
+    }
+    .burger:hover{
+        opacity: 1;
+    }
+    .nav-menu{
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        gap: 1rem;
+        padding: 1rem 0;
+    }
+    #nav-menu.open{
+        display: flex;
+    }
+    header{
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
 }   
+.burger{
+    display: none;
+}
