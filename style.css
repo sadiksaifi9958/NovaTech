@@ -203,10 +203,7 @@ nav a:hover{
         font-size: 1.8rem;
         color:#1a1a2e;
         cursor:pointer;
-        opacity: 0.7;
-    }
-    .burger:hover{
-        opacity: 1;
+        align-self: flex-start;
     }
     #nav-menu{
         display: none;
