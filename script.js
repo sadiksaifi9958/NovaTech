@@ -1,6 +1,6 @@
 let burgerButton = document.getElementById("burger-btn");
 let navMenu = document.getElementById("nav-menu");
 
-burgerButton.addEventlistener("click", function(){
+burgerButton.addEventListener("click", function(){
     navMenu.classList.toggle("open");
 });

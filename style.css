@@ -216,7 +216,7 @@ nav a:hover{
     .burger:hover{
         opacity: 1;
     }
-    .nav-menu{
+    #nav-menu{
         display: none;
         flex-direction: column;
         width: 100%;
