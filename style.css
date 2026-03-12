@@ -77,9 +77,8 @@ nav a:hover{
     position: static;
     font-size: 2.8rem;
     color: #1a1a2e;
-    line-height: 1.3rem;
+    line-height: 1.3;
     margin-bottom: 1rem;
-
 }
 
 .hero-section p{
@@ -87,14 +86,13 @@ nav a:hover{
     font-size: 1.2rem;
     color: #444;
     margin-bottom: 1.5rem;
-        max-width: 500px;
+    max-width: 500px;
 }
 
 .hero-section #btn-1{
     position: static;
     font-size: 1rem;
     padding: 0.7rem 1.5rem;
-
     background-color: #2563EB;
     border: 2px solid #2563EB;
     color: white;
@@ -108,7 +106,6 @@ nav a:hover{
     position: static;
     font-size: 1rem;
     padding: 0.7rem 1.5rem;
-
     background-color: white;
     color: #2563EB;
     border-radius: 12px;
