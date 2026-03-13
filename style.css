@@ -161,6 +161,7 @@ nav a:hover{
     justify-content: center;
     align-items: center;
     transition: 0.2s;
+    margin-bottom: 1.5rem;
 }
 .card h2{
     font-size: 1.3rem;
