@@ -63,7 +63,7 @@ nav a:hover{
 .hero-section{
     width: 100%;
     position: relative;
-    background-color: #EEF2FF;
+    background-color: white;
     min-height: 70vh;
     width: 100%;
     position: relative;
@@ -203,24 +203,24 @@ nav a:hover{
         font-size: 1.8rem;
         color:#1a1a2e;
         cursor:pointer;
-        align-self: flex-start;
     }
     #nav-menu{
-        display: none;
+        display: none !important;
         flex-direction: column;
         width: 100%;
         gap: 1rem;
         padding: 1rem 0;
+        order:3;
     }
     #nav-menu.open{
-        display: flex;
+        display: flex !important;
     }
     header{
         flex-wrap: wrap;
         flex-direction: row;
-        align-items: center;
+        align-items: flex-start;
         justify-content: space-between;
-        gap: 1rem;
+        gap: 0;
         padding: 1rem;
     }
 }   
