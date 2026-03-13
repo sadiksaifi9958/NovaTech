@@ -74,6 +74,7 @@ nav a:hover{
     flex-direction: column;
     justify-content: center;
     padding: 4rem 15%;
+    margin-bottom: 3rem;
 } 
 
 .hero-section h1{
@@ -146,7 +147,7 @@ nav a:hover{
     display: flex;
     justify-content: space-around;
     margin-top: 4rem;
-    margin-bottom: 4rem;
+    margin-bottom: 10rem;
 }
 
 .card{
