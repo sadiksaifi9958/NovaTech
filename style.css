@@ -234,3 +234,51 @@ nav a:hover{
     height: auto;
 }
 }   
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    border-top: 1px solid lightgrey;
+    padding-top: 1rem;
+}
+
+.logo-in-footer{
+    width: 12rem;
+    height: auto;
+    
+}
+.fa-brands{
+    width: 2.5rem;
+    height: 2.5rem;   
+   font-size: 1.2rem;
+   margin-right: 1.7rem;
+   border: 2px solid black;
+   border-radius: 50%;
+   text-align: center;
+   align-content: center;
+}
+.fa-brands:hover{
+    background-color: blue;
+    color: white;
+    border: 2px solid blue;
+    cursor: pointer;
+}
+.socials-in-footer{
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.copyright-text{
+    margin-bottom: 1rem;
+}
+.para-in-footer{
+    padding-bottom: 1.5rem;
+    font-size: 1rem;
+}
