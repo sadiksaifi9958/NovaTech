@@ -26,7 +26,10 @@ header{
     top: 0;
     z-index: 100;
     background: white;
-    padding: 0.5rem 1rem;
+    padding-top: 0.3rem;
+    padding-bottom:0;
+    padding-right: 1rem;
+    padding-left: 1rem;
 }
 nav{
     display: flex;
@@ -134,8 +137,9 @@ nav a:hover{
     font-size: 1rem;
 }
 .card img{
-    width:25vh;
+    width:15vh;
     height: auto;
+    padding-bottom: 2rem;
 }
 
 .feature-cards{
@@ -146,8 +150,8 @@ nav a:hover{
 }
 
 .card{
-    height: 21rem;
-    width: 21rem;
+    height: 19rem;
+    width: 19rem;
     border-radius: 12px;
     border: 2px solid #E5E4E2;
     text-align: center;
@@ -259,6 +263,8 @@ footer{
    border-radius: 50%;
    text-align: center;
    align-content: center;
+   color: black;
+   opacity: 0.8;
 }
 .fa-brands:hover{
     background-color: blue;
