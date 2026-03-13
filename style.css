@@ -150,8 +150,8 @@ nav a:hover{
 }
 
 .card{
-    height: 19rem;
-    width: 19rem;
+    height: 17rem;
+    width: 17rem;
     border-radius: 12px;
     border: 2px solid #E5E4E2;
     text-align: center;
@@ -161,10 +161,13 @@ nav a:hover{
     align-items: center;
     transition: 0.2s;
 }
-
+.card h2{
+    font-size: 1.3rem;
+}
 .card p{
-    width: 18rem;
+    width: 15rem;
     margin-top: 10px;
+    font-size: 0.9rem;
 }
 .card:hover{
     box-shadow:15px 15px 30px #E5E4E2;
