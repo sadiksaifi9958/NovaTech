@@ -162,6 +162,7 @@ nav a:hover{
     align-items: center;
     transition: 0.2s;
     margin-bottom: 1.5rem;
+    cursor: pointer;
 }
 .card h2{
     font-size: 1.3rem;
