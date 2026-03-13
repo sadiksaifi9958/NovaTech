@@ -36,7 +36,7 @@ nav{
     gap: 3rem;
     display: flex;
     align-items: center;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
 }
 nav button {
     margin-right: 0.5rem; 
@@ -46,7 +46,7 @@ nav button {
     border-radius: 12px;
     border: 2px solid blue;
     outline: none;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     cursor: pointer;
 }
 
@@ -95,25 +95,25 @@ nav a:hover{
 
 .hero-section #btn-1{
     position: static;
-    font-size: 1rem;
+    font-size: 1.1rem;
     padding: 0.7rem 1.5rem;
-    background-color: #2563EB;
-    border: 2px solid #2563EB;
+    background-color: blue;
     color: white;
     border-radius: 12px;
-    border: none;
+    border: 2px solid blue;
     outline: none;
     cursor: pointer;
+    margin-right: 1rem;
 }
 
 .hero-section #btn-2{
     position: static;
-    font-size: 1rem;
+    font-size: 1.1rem;
     padding: 0.7rem 1.5rem;
     background-color: white;
-    color: #2563EB;
+    color: blue;
     border-radius: 12px;
-    border: 2px solid #2563EB;
+    border: 2px solid blue;
     outline: none;
     cursor: pointer;
 }
@@ -261,13 +261,13 @@ footer{
     width: 2.5rem;
     height: 2.5rem;   
    font-size: 1.2rem;
-   margin-right: 1.7rem;
+   margin-right: 1.3rem;
    border: 2px solid black;
    border-radius: 50%;
    text-align: center;
    align-content: center;
    color: black;
-   opacity: 0.8;
+   
 }
 .fa-brands:hover{
     background-color: blue;
