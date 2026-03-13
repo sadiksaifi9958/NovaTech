@@ -205,15 +205,19 @@ nav a:hover{
         cursor:pointer;
     }
     #nav-menu{
-        display: none !important;
+        max-height:0;
+        overflow: hidden;
+        transition: max-height 0.3s ease;
         flex-direction: column;
         width: 100%;
         gap: 1rem;
-        padding: 1rem 0;
+        padding: 0;
         order:3;
+        display: flex !important;
     }
     #nav-menu.open{
-        display: flex !important;
+        max-height: 300px;
+        padding: 1rem 0;
     }
     header{
         flex-wrap: wrap;
@@ -223,4 +227,8 @@ nav a:hover{
         gap: 0;
         padding: 1rem;
     }
+    .logo{
+    width: 12rem;
+    height: auto;
+}
 }   
