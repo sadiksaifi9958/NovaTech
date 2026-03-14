@@ -294,3 +294,53 @@ footer{
     padding-bottom: 1.5rem;
     font-size: 1rem;
 }
+
+.who-we-are-section{
+    display: flex;
+    gap: 2rem;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 3rem 3rem;
+    border-bottom: 1px solid lightgrey;
+}
+.who-we-are-section h2{
+    opacity: 0.5;
+}
+
+.our-stats-section{
+    border-bottom: 1px solid lightgray;
+}
+.our-stats-section h2{
+    padding: 3rem 3rem;
+    opacity: 0.5;
+}
+.stats-cards{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding-bottom: 6rem;
+}
+
+.stats-cards div h1{
+    color: blue;
+}
+
+.our-mission-section{
+    padding: 3rem 3rem;
+}
+
+.our-mission-section h2{
+    opacity: 0.5;
+    
+}
+
+.our-mission-section p{
+    padding-top: 3rem;
+    padding-right: 14rem;
+}
+
+.who-we-are-section p,
+.our-stats-section p,
+.our-mission-section p{
+    font-size: 1.2rem;
+}
