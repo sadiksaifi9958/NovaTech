@@ -10,7 +10,7 @@ html{
 body{
     margin: 0;
     padding: 0;
-     font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 .logo{
     width: 15rem;
@@ -80,7 +80,7 @@ nav a:hover{
 .hero-section h1{
     position: static;
     font-size: 2.8rem;
-    color: #1a1a2e;
+    color: #0F172A;
     line-height: 1.3;
     margin-bottom: 1rem;
     width: 60%;
@@ -89,7 +89,7 @@ nav a:hover{
 .hero-section p{
     position: static;
     font-size: 1.2rem;
-    color: #444;
+    color: #64748B;
     margin-bottom: 1.5rem;
     max-width: 500px;
 }
@@ -130,12 +130,14 @@ nav a:hover{
 .feature-heading{
     text-align: center;
     font-size: 1.5rem;
+    color: blue;
 }
 
 .feature-para{
     text-align: center;
     margin-top: 1rem;
     font-size: 1rem;
+    color: #64748B;
 }
 .card img{
     width:15vh;
@@ -154,7 +156,7 @@ nav a:hover{
     height: 17rem;
     width: 17rem;
     border-radius: 12px;
-    border: 2px solid #E5E4E2;
+    border: 2px solid #64748B;;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -166,11 +168,13 @@ nav a:hover{
 }
 .card h2{
     font-size: 1.3rem;
+    color: #0F172A;
 }
 .card p{
     width: 15rem;
     margin-top: 10px;
     font-size: 0.9rem;
+    color: #64748B;
 }
 .card:hover{
     box-shadow:15px 15px 30px #E5E4E2;
@@ -213,7 +217,7 @@ nav a:hover{
         background: none;
         border:none;
         font-size: 1.8rem;
-        color:#1a1a2e;
+        color:#64748B;;
         cursor:pointer;
     }
     #nav-menu{
@@ -265,11 +269,11 @@ footer{
     height: 2.5rem;   
    font-size: 1.2rem;
    margin-right: 1.3rem;
-   border: 2px solid black;
+   border: 2px solid #64748B;
    border-radius: 50%;
    text-align: center;
    align-content: center;
-   color: black;
+   color: #64748B;;
    
 }
 .fa-brands:hover{
@@ -289,10 +293,12 @@ footer{
 
 .copyright-text{
     margin-bottom: 1rem;
+    color: #64748B;
 }
 .para-in-footer{
     padding-bottom: 1.5rem;
     font-size: 1rem;
+    color: #64748B;
 }
 .who-we-are-section {
     display: flex;
@@ -336,7 +342,6 @@ footer{
 
 .stats-cards div p {
     font-size: 1.5rem;
-    padding-bottom: 1.5rem;
 }
 
 .our-mission-section {
@@ -363,4 +368,25 @@ footer{
     font-size: 1.2rem;
     color: #64748B;
     max-width: 600px;
+}
+
+@media (max-width: 768px){
+.who-we-are-section,
+.our-stats-section,
+.our-mission-section{
+    padding: 2rem;
+}
+.stats-cards div h2{
+    font-size: 1.5rem;
+}
+.stats-cards div p{
+    font-size: 1rem;
+}
+.stats-cards div{
+    height: 8rem;
+    margin-bottom: 2rem;
+}
+.stats-cards{
+    flex-wrap: wrap;
+}
 }
