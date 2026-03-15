@@ -392,3 +392,61 @@ footer{
     flex-wrap: wrap;
 }
 }
+
+.pricing-page-headings{
+    padding: 5rem 5rem;
+    display: flex;
+    flex-direction:column;
+    gap: 3rem;
+}
+.pricing-page-headings h3{
+    color: blue;
+    font-size: 1rem;
+}
+
+.price-cards{
+    padding: 5rem 5rem;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    padding-bottom: 10rem;
+    padding-top: 0;
+}
+
+.price-card{
+    display: flex;
+    flex-direction:column;
+    align-items: flex-start;
+    gap: 0.6rem;
+    border-radius: 12px;
+    padding: 2rem 2rem;
+    height: 17rem;
+    width: 17rem;
+    border: 1px solid lightgrey;
+}
+
+.price-card button{
+    padding: 0.3rem;
+    border-radius: 9px;
+    text-align: center;
+    width: 100%;
+    font-size: 1rem;
+    background-color: white;
+    border: 1px solid blue;
+    color: blue; 
+}
+.price-card div{
+    display: flex;
+}
+.price-card div h3{
+    align-self:last baseline;
+}
+
+.selected-card button{
+    border: 1px solid blue;
+    background-color: blue;
+    color: white;
+}
+.selected-card{
+    border: 1px solid blue;
+}
