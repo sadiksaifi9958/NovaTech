@@ -477,7 +477,6 @@ contact-page-headings h3{
 .contact-page-input-group{
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-direction: column;
     gap: 2rem;
     padding: 3rem 3rem;
