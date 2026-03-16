@@ -487,6 +487,8 @@ contact-page-headings h3{
     width: 60vh;
     border: 1px solid lightgray;
     margin-right: 2rem;
+    text-align: start;
+    padding: 1rem;
 }
 
 #message-input{
