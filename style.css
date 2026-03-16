@@ -459,6 +459,6 @@ footer{
 @media (max-width: 768px){
     .price-cards{
         flex-direction: column;
-        justify-content: flex-start;
+        justify-content: flex-end;
     }
 }
