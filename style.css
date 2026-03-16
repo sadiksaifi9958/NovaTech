@@ -464,49 +464,48 @@ footer{
 }
 
 .contact-page-headings{
-    padding: 3rem 5rem;
+    padding: 4rem 5rem;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 3rem;
 }
 
 .contact-page-headings h3{
     color: blue;
 }
 
-.contact-page-input-group{
+.input-groups-and-contact-info{
+    display: flex;
+    padding: 2rem 5rem;
+}
+
+.contact-inputs{
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    padding: 3rem 5rem;
 }
 
 .contact-inputs input{
-    border-radius: 12px;
     height: 4rem;
+    border-radius: 12px;
     width: 60vh;
     border: 1px solid lightgray;
-    margin-right: 2rem;
-    text-align: start;
-    padding: 1rem;
 }
-
-#message-input{
-    height: 6rem;
-    text-align:start;
-}
-
 .contact-inputs button{
-    height: 2.5rem;
+    height: 2rem;
     width: 60vh;
     background-color: blue;
     color: white;
     text-align: center;
-    border-radius: 12px;
     border: 2px solid blue;
+    border-radius: 12px;
 }
 
-.contact-inputs {
+.contact-info{
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
 }
+
+
+
