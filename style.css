@@ -462,3 +462,47 @@ footer{
         justify-content: flex-start;
     }
 }
+
+.contact-page-headings{
+    padding: 3rem 3rem;
+    display: flex;
+    gap: 2rem;
+}
+
+contact-page-headings h3{
+    color: blue;
+}
+
+.contact-page-input-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 3rem 3rem;
+}
+
+.contact-inputs input{
+    border-radius: 12px;
+    height: 2rem;
+    width: 60vh;
+    border: 1px solid lightgray;
+    margin-right: 2rem;
+}
+
+.message-input{
+    height: 4rem;
+}
+
+.contact-inputs button{
+    height: 1rem;
+    width: 60vh;
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+
+.contact-inputs {
+    display: flex;
+    align-items: center;
+}
