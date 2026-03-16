@@ -477,6 +477,7 @@ footer{
 .input-groups-and-contact-info{
     display: flex;
     padding: 2rem 5rem;
+    justify-content: space-around;
 }
 
 .contact-inputs{
@@ -492,7 +493,7 @@ footer{
     border: 1px solid lightgray;
 }
 .contact-inputs button{
-    height: 2rem;
+    height: 2.5rem;
     width: 60vh;
     background-color: blue;
     color: white;
@@ -506,6 +507,7 @@ footer{
     flex-direction: column;
     gap: 2rem;
 }
+
 
 
 
