@@ -455,3 +455,10 @@ footer{
 .selected-card button:active{
     opacity: 0.7;
 }
+
+@media (max-width: 768px){
+    .price-cards{
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+}
