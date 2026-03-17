@@ -477,7 +477,7 @@ footer{
 .input-groups-and-contact-info{
     display: flex;
     padding: 2rem 5rem;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .contact-inputs{
