@@ -21,4 +21,3 @@ cardButton.forEach(function(btn){
         e.stopPropagation();
     });
 });
-

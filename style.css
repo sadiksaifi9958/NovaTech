@@ -538,3 +538,6 @@ footer{
     font-size: 1rem;
 }
 
+.input-box:focus-within{
+    border-color: blue;
+}
