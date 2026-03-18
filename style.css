@@ -608,4 +608,7 @@ footer {
     .contact-inputs button{
         width: 50vh;
     }
+    .contact-info{
+        gap: 2rem;
+    }
 }
