@@ -590,7 +590,7 @@ footer {
     border-color: black;
 }
 
-@media(max-width: 740px) {
+@media(max-width: 768px) {
     .input-groups-and-contact-info {
         flex-direction: column;
         padding: 2rem 2rem;
@@ -600,13 +600,13 @@ footer {
         padding: 2rem 2rem;
     }
     .contact-inputs div{
-        width: 50vh;
-    }
-    .input-box input{
         width: 40vh;
     }
+    .input-box input{
+        width: 35vh;
+    }
     .contact-inputs button{
-        width: 50vh;
+        width: 40vh;
     }
     .contact-info{
         gap: 2rem;
