@@ -572,7 +572,7 @@ footer {
 .contact-info {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 5rem;
 }
 
 #Message-input {
