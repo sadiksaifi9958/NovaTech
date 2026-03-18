@@ -590,7 +590,7 @@ footer {
     border-color: black;
 }
 
-@media(max-width: 768px) {
+@media(max-width: 740px) {
     .input-groups-and-contact-info {
         flex-direction: column;
         padding: 2rem 2rem;
