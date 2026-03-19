@@ -280,7 +280,7 @@ nav a:hover {
     border-top: 1px solid lightgray;
     display: flex;
     justify-content: space-between;
-    padding: 2rem;
+    padding: 4rem;
 }
 
 
@@ -296,8 +296,12 @@ nav a:hover {
 
 .socials-in-footer{
     display:flex;
-    gap: 2rem;
-    
+    gap: 1rem;
+}
+.socials-in-footer i:hover{
+    background-color:#64748B;
+    color: white;
+    border-color: white;
 }
 
 .socials-in-footer i{
