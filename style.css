@@ -167,7 +167,6 @@ nav a:hover {
     height: 17rem;
     width: 17rem;
     border-radius: 12px;
-    border: 1px solid lightgrey;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -188,11 +187,6 @@ nav a:hover {
     margin-top: 10px;
     font-size: 0.9rem;
     color: #64748B;
-}
-
-.card:hover {
-    box-shadow: 15px 15px 30px #E5E4E2;
-    transform: scale(1.05);
 }
 
 .burger {
