@@ -284,7 +284,7 @@ nav a:hover {
 }
 
 
-.logo-descrition-socials{
+.logo-description-socials{
     width: 20%;
     display:flex;
     flex-direction: column;
@@ -294,9 +294,15 @@ nav a:hover {
     color: #64748B; 
 }
 
+.logo-description-socials p{
+    font-size: 0.9rem;
+}
+
 .socials-in-footer{
     display:flex;
     gap: 1rem;
+    padding-top: 1rem;
+
 }
 .socials-in-footer i:hover{
     background-color:#64748B;
@@ -310,6 +316,48 @@ nav a:hover {
     border-radius: 10px;
     padding: 0.5rem;
 }
+
+.quick-links h2{
+    color: #0F172A;
+    font-size: 1.3rem;
+}
+
+.quick-links a{
+    color: #64748B;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+.quick-links ul{
+    color: #64748B;
+    padding-left: 1rem;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.quick-links a:hover{
+    text-decoration: underline;
+}
+.quick-links{
+    padding: 1rem;
+    display:flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.contact-info-in-footer{
+    display:flex;
+    flex-direction: column;
+    gap: 1rem;
+    color: #64748B;
+    padding: 1rem;
+}
+.contact-info-in-footer i{
+    padding-right: 1rem;;
+}
+
 .who-we-are-section {
     display: flex;
     flex-direction: column;
