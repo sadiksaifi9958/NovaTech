@@ -320,7 +320,7 @@ nav a:hover {
 }
 
 .quick-links h2 {
-    color: #0F172A;
+    color: #64748B;
     font-size: 1.3rem;
 }
 
@@ -396,6 +396,33 @@ nav a:hover {
 
 .newsletter-in-footer button:active{
     opacity: 0.8;
+}
+
+.copyright-and-policies-in-footer{
+    border-top: 1px solid lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: auto;   
+    height: 3rem;
+    font-size: 0.9rem;
+    color: #64748B;
+}
+.policies{
+    
+    display: flex;
+    gap: 1rem;
+}
+
+.policies a{
+    text-decoration: none;
+    color:  #64748B;
+    font-size: 0.9rem;
+}
+
+.policies a:hover{
+    text-decoration:underline;
 }
 
 .who-we-are-section {
