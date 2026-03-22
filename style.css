@@ -312,9 +312,8 @@ nav a:hover {
 }
 
 .socials-in-footer i {
-    font-size: 1.3rem;
+    font-size: 1rem;
     border: 1px solid #64748B;
-    ;
     border-radius: 10px;
     padding: 0.5rem;
 }
@@ -423,6 +422,25 @@ nav a:hover {
 
 .policies a:hover{
     text-decoration:underline;
+}
+
+@media(max-width: 768px){
+    .footer{
+        flex-direction:column;
+        gap:3rem;
+    }
+    .logo-description-socials,
+    .newsletter-in-footer{
+        width: auto;
+    }
+    .quick-links{   
+        justify-content:flex-start;
+    }
+    .copyright-and-policies-in-footer{
+        flex-direction:column;
+        justify-content:center;
+        gap: 0.5rem;
+        padding: 2rem 0;
 }
 
 .who-we-are-section {
