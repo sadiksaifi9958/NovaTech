@@ -209,91 +209,7 @@ nav a:hover {
     display: none;
 }
 
-@media (max-width: 768px) {
-    nav button {
-        font-size: 1rem;
-    }
 
-    .hero-section {
-        min-height: 50vh;
-        padding: 3rem 1.5rem;
-    }
-
-    .hero-section h1 {
-        font-size: 1.8rem;
-        width: 95%;
-    }
-
-    .hero-section p {
-        font-size: 1rem;
-    }
-
-    .feat-heading-2 {
-        text-align: center;
-        font-size: 1.3rem;
-    }
-
-    .feature-heading{
-        font-size: 1.3rem;
-    }
-    
-    .feature-cards {
-        flex-direction: column;
-        align-items: center;
-        padding: 0 1rem;
-        gap: 3rem;
-    }
-
-    .card {
-        width: 85%;
-        height: auto;
-        padding: 1.5rem;
-    }
-
-    .card p {
-        width: 100%;
-    }
-
-    .burger {
-        display: block;
-        background: none;
-        border: none;
-        font-size: 1.8rem;
-        color: #64748B;
-        cursor: pointer;
-    }
-
-    #nav-menu {
-        max-height: 0;
-        overflow: hidden;
-        transition: max-height 0.3s ease;
-        flex-direction: column;
-        width: 100%;
-        gap: 1rem;
-        padding: 0;
-        order: 3;
-        display: flex !important;
-    }
-
-    #nav-menu.open {
-        max-height: 300px;
-        padding: 1rem 0;
-    }
-
-    header {
-        flex-wrap: wrap;
-        flex-direction: row;
-        align-items: flex-start;
-        justify-content: space-between;
-        gap: 0;
-        padding: 1rem;
-    }
-
-    .logo {
-        width: 12rem;
-        height: auto;
-    }
-}
 
 .logo-in-footer {
     width: 10rem;
@@ -304,10 +220,10 @@ nav a:hover {
     border-top: 1px solid lightgray;
     display: flex;
     padding: 4rem 1rem;
-    justify-content:center;
+    justify-content: center;
     gap: 8rem;
 }
- 
+
 
 .logo-description-socials {
     width: 20%;
@@ -449,30 +365,6 @@ nav a:hover {
     text-decoration: underline;
 }
 
-@media(max-width: 768px) {
-    .footer {
-        flex-direction: column;
-        gap: 3rem;
-        padding-left: 4rem;
-    }
-
-    .logo-description-socials,
-    .newsletter-in-footer {
-        width: 65%;
-    }
-
-    .quick-links {
-        justify-content: flex-start;
-    }
-
-    .copyright-and-policies-in-footer {
-        flex-direction: column;
-        justify-content: center;
-        gap: 0.5rem;
-        padding: 2rem 0;
-    }
-}
-
 .who-we-are-section {
     display: flex;
     flex-direction: column;
@@ -543,32 +435,6 @@ nav a:hover {
     max-width: 600px;
 }
 
-@media (max-width: 768px) {
-
-    .who-we-are-section,
-    .our-stats-section,
-    .our-mission-section {
-        padding: 2rem;
-    }
-
-    .stats-cards div h2 {
-        font-size: 1.5rem;
-    }
-
-    .stats-cards div p {
-        font-size: 1rem;
-    }
-
-    .stats-cards div {
-        height: 8rem;
-        margin-bottom: 2rem;
-    }
-
-    .stats-cards {
-        flex-wrap: wrap;
-    }
-}
-
 .pricing-page-headings {
     padding: 5rem 5rem;
     display: flex;
@@ -634,17 +500,6 @@ nav a:hover {
 
 .selected-card button:active {
     opacity: 0.7;
-}
-
-@media (max-width: 768px) {
-    .price-cards {
-        flex-direction: column;
-        justify-content: flex-start;
-    }
-
-    .pricing-page-headings {
-        padding: 5rem 2rem;
-    }
 }
 
 .contact-page-headings {
@@ -731,6 +586,90 @@ nav a:hover {
 }
 
 @media(max-width: 768px) {
+    nav button {
+        font-size: 1rem;
+    }
+
+    .hero-section {
+        min-height: 50vh;
+        padding: 3rem 1.5rem;
+    }
+
+    .hero-section h1 {
+        font-size: 1.8rem;
+        width: 95%;
+    }
+
+    .hero-section p {
+        font-size: 1rem;
+    }
+
+    .feat-heading-2 {
+        text-align: center;
+        font-size: 1.3rem;
+    }
+
+    .feature-heading {
+        font-size: 1.3rem;
+    }
+
+    .feature-cards {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 1rem;
+        gap: 3rem;
+    }
+
+    .card {
+        width: 85%;
+        height: auto;
+        padding: 1.5rem;
+    }
+
+    .card p {
+        width: 100%;
+    }
+
+    .burger {
+        display: block;
+        background: none;
+        border: none;
+        font-size: 1.8rem;
+        color: #64748B;
+        cursor: pointer;
+    }
+
+    #nav-menu {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease;
+        flex-direction: column;
+        width: 100%;
+        gap: 1rem;
+        padding: 0;
+        order: 3;
+        display: flex !important;
+    }
+
+    #nav-menu.open {
+        max-height: 300px;
+        padding: 1rem 0;
+    }
+
+    header {
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 0;
+        padding: 1rem;
+    }
+
+    .logo {
+        width: 12rem;
+        height: auto;
+    }
+
     .input-groups-and-contact-info {
         flex-direction: column;
         padding: 2rem 2rem;
@@ -754,5 +693,59 @@ nav a:hover {
 
     .contact-info {
         gap: 2rem;
+    }
+
+    .footer {
+        flex-direction: column;
+        gap: 3rem;
+        padding-left: 4rem;
+    }
+
+    .logo-description-socials,
+    .newsletter-in-footer {
+        width: 65%;
+    }
+
+    .quick-links {
+        justify-content: flex-start;
+    }
+
+    .copyright-and-policies-in-footer {
+        flex-direction: column;
+        justify-content: center;
+        gap: 0.5rem;
+        padding: 2rem 0;
+    }
+
+    .who-we-are-section,
+    .our-stats-section,
+    .our-mission-section {
+        padding: 2rem;
+    }
+
+    .stats-cards div h2 {
+        font-size: 1.5rem;
+    }
+
+    .stats-cards div p {
+        font-size: 1rem;
+    }
+
+    .stats-cards div {
+        height: 8rem;
+        margin-bottom: 2rem;
+    }
+
+    .stats-cards {
+        flex-wrap: wrap;
+    }
+
+    .price-cards {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .pricing-page-headings {
+        padding: 5rem 2rem;
     }
 }
