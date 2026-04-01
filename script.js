@@ -122,4 +122,57 @@ darkModeSwitch.addEventListener("click", function () {
     }
 });
 
+let contactForm = document.getElementById("contact-page-form");
+let fullName = document.getElementById("Full-Name");
+let emailAddress = document.getElementById("Email-Address");
+let subject = document.getElementById("Subject");
+let message = document.getElementById("Message");
+let submitBtn = document.getElementById("submit")
+let error = document.querySelectorAll(".error");
+let successMsg = document.querySelector(".success-message");
+
+contactForm.addEventListener("submit",
+    function (event) {
+        event.preventDefault();
+        if (fullName.value === "") {
+            error[0].textContent = "full name is required"
+        } else {
+            error[0].textContent = "";
+        }
+
+        if (emailAddress.value === "") {
+            error[1].textContent = "email is required";
+        } else if ((!emailAddress.value.includes("@")) || (!emailAddress.value.includes("."))) {
+            error[1].textContent = "invalid email address";
+        } else {
+            error[1].textContent = "";
+        }
+
+        if (subject.value === "") {
+            error[2].textContent = "subject is required";
+        } else {
+            error[2].textContent = "";
+        }
+
+        if (message.value === "") {
+            error[3].textContent = "please write your message"
+        } else {
+            error[3].textContent = "";
+        }
+
+        let isValid = error[0].textContent === "" &&
+            error[1].textContent === "" &&
+            error[2].textContent === "" &&
+            error[3].textContent === "";
+
+        if (isValid) {
+            successMsg.textContent = "Message sent successfully!";
+            contactForm.reset();
+        } else {
+            successMsg.textContent = "";
+        }
+
+    }
+);
+
 

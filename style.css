@@ -592,7 +592,7 @@ body.dark .price-card.selected-card button {
     gap: 10rem;
 }
 
-.contact-inputs {
+.contact-inputs form {
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -1003,7 +1003,15 @@ body.dark .input-box label {
     color: #CBD5E1;
 }
 
+.error {
+    color: red;
+    font-size: 0.8rem;
+}
 
+.success-message {
+    color: blue;
+    font-size: 0.8rem;
+}
 
 @media(max-width: 768px) {
     nav button {
