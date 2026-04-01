@@ -493,6 +493,7 @@ nav a:hover {
     display: flex;
     gap: 2rem;
     justify-content: center;
+    align-items: center;
     padding-bottom: 10rem;
     padding-top: 0;
 }
@@ -508,6 +509,16 @@ nav a:hover {
     width: 17rem;
     border: 1px solid lightgrey;
 }
+
+.price-card h2 {
+    color: blue;
+}
+
+.price-card p {
+    color: #64748B;
+}
+
+
 
 .price-card button {
     padding: 0.3rem;
@@ -528,12 +539,34 @@ nav a:hover {
     align-self: last baseline;
 }
 
-.selected-card button {
+.price-card.selected-card button {
     border: 1px solid blue;
     background-color: blue;
     color: white;
     cursor: pointer;
 }
+
+body.dark .price-card.selected-card {
+    border-color: blue;
+}
+
+body.dark .price-card {
+    border-color: #334155;
+}
+
+body.dark .price-card button {
+    background-color: transparent;
+    color: white;
+    border-color: blue;
+}
+
+body.dark .price-card.selected-card button {
+    background-color: blue;
+    color: white;
+    border: 1px solid blue;
+}
+
+
 
 .selected-card {
     border: 1px solid blue;
@@ -946,7 +979,8 @@ body.dark .copyright-and-policies-in-footer .policies a,
 body.dark .who-we-are-section p,
 body.dark .stats-cards div p,
 body.dark .stats-cards div,
-body.dark .our-mission-section p {
+body.dark .our-mission-section p,
+body.dark .price-card p {
     background-color: #0D1117;
     border-color: skyblue;
     color: skyblue;
@@ -955,6 +989,7 @@ body.dark .our-mission-section p {
 body.dark .day-night-mode {
     background-color: #0D1117;
 }
+
 
 
 @media(max-width: 768px) {
