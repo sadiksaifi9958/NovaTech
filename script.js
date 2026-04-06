@@ -12,20 +12,21 @@ document.body.insertAdjacentHTML("beforeend", `<div id="modal-overlay">
                 <div class="input-group">
                     <label for="name">Name</label>
                     <input type="text" id="name" placeholder="Your Full Name" />
-                    <span class="error"></span>
+                    <span class="modal-error"></span>
                 </div>
 
                 <div class="input-group">
                     <label for="email">Email</label>
                     <input type="text" id="email" placeholder="you@example.com" />
-                    <span class="error"></span>
+                    <span class="modal-error"></span>
                 </div>
 
                 <div class="input-group">
                     <label for="message">Message</label>
-                    <textarea placeholder="How can we help you?" rows="5"></textarea>
-                    <span class="error"></span>
+                    <textarea id="modal-message" placeholder="How can we help you?" rows="5"></textarea>
+                    <span class="modal-error"></span>
                 </div>
+                <span class="modal-success"></span>
                 <button type="submit" id="submit">Send message</button>
             </form>
         </div>
@@ -187,3 +188,44 @@ if (searchBtn) {
         searchInput.classList.toggle("visible-search-input");
     });
 }
+
+let modalName = document.getElementById("name");
+let modalEmail = document.getElementById("email");
+let modalMessage = document.getElementById("modal-message");
+let modalError = document.querySelectorAll(".modal-error");
+let modalSuccess = document.querySelector(".modal-success");
+
+if (modalForm) {
+    modalForm.addEventListener("submit", function (e) {
+        e.preventDefault();
+        if (modalName.value === "") {
+            modalError[0].textContent = "full name is required";
+        } else {
+            modalError[0].textContent = "";
+        }
+        if (modalEmail.value === "") {
+            modalError[1].textContent = "email is required";
+        } else if ((!modalEmail.value.includes("@")) || (!modalEmail.value.includes("."))) {
+            modalError[1].textContent = "email is invalid"
+        } else {
+            modalError[1].textContent = "";
+        }
+
+        if (modalMessage.value === "") {
+            modalError[2].textContent = "message area should not be empty";
+        } else {
+            modalError[2].textContent = "";
+        }
+
+        let isValidModal = modalError[0].textContent === "" &&
+            modalError[1].textContent === "" &&
+            modalError[2].textContent === "";
+
+        if (isValidModal) {
+            modalSuccess.textContent = "Message sent successfully!";
+            modalForm.reset();
+        } else {
+            modalSuccess.textContent = "";
+        }
+    })
+};

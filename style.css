@@ -802,7 +802,7 @@ body.dark .price-card.selected-card button {
     padding: 2rem;
 }
 
-body.dark #modal-overlay{
+body.dark #modal-overlay {
     background-color: rgba(0, 0, 0, 0.7);
 }
 
@@ -937,7 +937,7 @@ body.dark .hero-section h1 {
     color: white;
 }
 
-body.dark header{
+body.dark header {
     background-color: rgba(13, 17, 23, 0.5);
     backdrop-filter: blur(10px);
     border-color: skyblue;
@@ -955,6 +955,7 @@ body.dark .cta-section h1 {
 body.dark .hero-section p {
     color: skyblue;
 }
+
 body.dark .hero-section #btn-2,
 body.dark .search-group input,
 body.dark .search-group button,
@@ -999,28 +1000,28 @@ body.dark .price-card p {
     color: skyblue;
 }
 
-.socials-in-footer i:hover{
+.socials-in-footer i:hover {
     background-color: skyblue;
     border-color: #0D1117;
     color: #0D1117;
 }
 
 body.dark .who-we-are-section h1,
-body.dark .our-mission-section h1{
+body.dark .our-mission-section h1 {
     color: white;
-    background-color:#0D1117;
+    background-color: #0D1117;
 }
 
 body.dark .modal-box,
 body.dark .modal-box .modal-header button,
 body.dark .modal-box #modal-form .input-group input,
-body.dark .modal-box #modal-form .input-group textarea{
+body.dark .modal-box #modal-form .input-group textarea {
     background-color: #0D1117;
     color: white;
     border-color: #334155;
 }
 
-body.dark .modal-header h1{
+body.dark .modal-header h1 {
     color: blue;
 }
 
@@ -1050,7 +1051,8 @@ body.dark #submit {
     border-color: blue;
 }
 
-.error {
+.error,
+.modal-error {
     color: red;
     font-size: 0.8rem;
 }
@@ -1161,7 +1163,7 @@ body.dark #submit {
         width: 35vh;
     }
 
-    .contact-inputs #contact-page-form button{
+    .contact-inputs #contact-page-form button {
         width: 40vh;
     }
 
