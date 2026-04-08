@@ -11,19 +11,19 @@ document.body.insertAdjacentHTML("beforeend", `<div id="modal-overlay">
             <form id="modal-form">
                 <div class="input-group">
                     <label for="name">Name</label>
-                    <input type="text" id="name" placeholder="Your Full Name" />
+                    <input type="text" id="name" name="user-name" placeholder="Your Full Name" />
                     <span class="modal-error"></span>
                 </div>
 
                 <div class="input-group">
                     <label for="email">Email</label>
-                    <input type="text" id="email" placeholder="you@example.com" />
+                    <input type="text" id="email" name="user-email" placeholder="you@example.com" />
                     <span class="modal-error"></span>
                 </div>
 
                 <div class="input-group">
                     <label for="message">Message</label>
-                    <textarea id="modal-message" placeholder="How can we help you?" rows="5"></textarea>
+                    <textarea id="modal-message" name="user-message" placeholder="How can we help you?" rows="5"></textarea>
                     <span class="modal-error"></span>
                 </div>
                 <span class="modal-success"></span>
@@ -182,15 +182,29 @@ if (contactForm) {
                 error[3].textContent === "";
 
             if (isValid) {
-                successMsg.textContent = "Message sent successfully!";
-                contactForm.reset();
+                emailjs.send("service_7zcj7he", "template_skdpyh9", {
+                    user_name: fullName.value,
+                    user_email: emailAddress.value,
+                    user_subject: subject.value,
+                    user_message: message.value
+                }).then(function () {
+                    successMsg.textContent = "Message sent successfully!";
+                    contactForm.reset();
+                }).catch((error) => {
+                    console.log(error);
+                    alert("your message could not be submit");
+                });
+
             } else {
                 successMsg.textContent = "";
             }
 
+
+
         }
     )
-};
+}
+
 
 
 let searchBtn = document.querySelector(".search-btn");
@@ -260,4 +274,6 @@ newsletterForm.addEventListener("submit", function (e) {
         console.log(error)
         alert("Something went wrong, try again.")
     })
-}); 
+});
+
+
