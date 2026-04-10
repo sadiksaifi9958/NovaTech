@@ -485,34 +485,28 @@ nav a.active {
 }
 
 .our-mission-section h1,
-.value-section h1,
-.why-us-section h1 {
+.value-section-heading h1,
+why-us-section-heading h1 {
     color: #0F172A;
 }
 
 .who-we-are-section h2,
 .our-stats-section h2,
 .our-mission-section h2,
-.value-section h2,
-.why-us-section h2 {
+.value-section-heading h2,
+why-us-section-heading h2 {
     color: blue;
     font-size: 1rem;
 }
 
 .who-we-are-section p,
 .our-stats-section p,
-.our-mission-section p {
+.our-mission-section p,
+why-us-section-heading p,
+.value-section-heading p {
     font-size: 1.2rem;
     color: #64748B;
     max-width: 600px;
-}
-
-.value-section p,
-.why-us-section p {
-    font-size: 1.2rem;
-    color: #64748B;
-    max-width: 600px;
-    text-align: center;
 }
 
 .value-card h2,
@@ -528,6 +522,13 @@ nav a.active {
     gap: 5rem;
     margin-bottom: 5rem;
     margin-top: 1rem;
+}
+
+.value-section-heading {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
 }
 
 .values-cards {
@@ -595,13 +596,12 @@ nav a.active {
     border: 1px solid lightgrey;
 }
 
-.price-card h2,
-.comparison-section h2 {
+.price-card h2 {
     color: blue;
 }
 
 .price-card p,
-.faq-section p,
+.faq-section .faq-section-heading p,
 .faq-card p {
     color: #64748B;
 }
@@ -682,8 +682,15 @@ nav a.active {
 }
 
 .comparison-table th p,
-.faq-section h2 {
+.faq-section .faq-section-heading h3,
+.comparison-section h3 {
     color: blue;
+}
+
+.faq-section-heading {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }
 
 .faq-section {
@@ -1576,4 +1583,5 @@ body.dark #submit {
     .search-group {
         display: none;
     }
+
 }
