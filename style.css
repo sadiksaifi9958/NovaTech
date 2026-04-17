@@ -112,7 +112,6 @@ nav a.active {
     opacity: 1;
 }
 
-
 .search-input:focus {
     border-color: blue;
     outline: skyblue;
@@ -289,7 +288,6 @@ nav a.active {
 }
 
 .footer {
-    border-top: 1px solid lightgray;
     display: flex;
     padding: 2rem 4rem;
     justify-content: center;
