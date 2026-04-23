@@ -35,7 +35,7 @@ document.body.insertAdjacentHTML("beforeend", `
     </div>`);
 
 let burgerButton = document.getElementById("burger-btn");
-let navMenu = document.getElementById("nav-menu");
+let navMenu = document.getElementById("nav-links");
 
 burgerButton.addEventListener("click", function () {
     navMenu.classList.toggle("open");
